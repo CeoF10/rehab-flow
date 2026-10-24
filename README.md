@@ -1,10 +1,10 @@
-# Rehabilitación IESS Guaranda — prototipo académico
+# RehabFlow — Frontend y Prototipo de Rehabilitación IESS
 
 > 🎓 **Proyecto Académico** | Universidad Estatal de Bolívar  
 > • **Materia:** Interacción Hombre-Máquina (IHM)  
 > • **Ciclo:** 6to Ciclo — Ingeniería de Software  
 
-Aplicación React y Vite para explorar la atención de rehabilitación en Guaranda. Es una demostración de Interacción Hombre–Máquina: no está conectada al IESS y no crea citas reales.
+Aplicación React y Vite para la exploración de profesionales y solicitud accesible de citas médicas de rehabilitación física en Guaranda.
 
 **Sitio publicado:** [ver el prototipo en GitHub Pages](https://ceof10.github.io/IHM-ProyectoU/).
 
