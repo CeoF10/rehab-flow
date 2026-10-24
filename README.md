@@ -1,5 +1,9 @@
 # Rehabilitación IESS Guaranda — prototipo académico
 
+> 🎓 **Proyecto Académico** | Universidad Estatal de Bolívar  
+> • **Materia:** Interacción Hombre-Máquina (IHM)  
+> • **Ciclo:** 6to Ciclo — Ingeniería de Software  
+
 Aplicación React y Vite para explorar la atención de rehabilitación en Guaranda. Es una demostración de Interacción Hombre–Máquina: no está conectada al IESS y no crea citas reales.
 
 **Sitio publicado:** [ver el prototipo en GitHub Pages](https://ceof10.github.io/IHM-ProyectoU/).
