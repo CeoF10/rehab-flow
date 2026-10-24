@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { especialistas, ejercicios, centroInfo } from "../data/mock";
 import { fechaLocal, obtenerHorariosDisponibles, obtenerProximasCitas } from "../utils/appointments";
+import { seleccionarVozEspanol } from "../utils/voice";
 import Icon from "./Icon";
 
 function Recordatorios({ citas, onNavigate }) {
@@ -193,7 +194,9 @@ function EjerciciosSection() {
     window.speechSynthesis.cancel();
     const texto = `${activo.titulo}. Ejercicio del canal ${activo.canal}, guiado por ${activo.especialista}. ${activo.transcripcion}`;
     const utterance = new SpeechSynthesisUtterance(texto);
-    utterance.lang = "es-EC";
+    const vozEspanol = seleccionarVozEspanol(window.speechSynthesis.getVoices());
+    if (vozEspanol) utterance.voice = vozEspanol;
+    utterance.lang = vozEspanol?.lang || "es-419";
     utterance.rate = 0.95;
     utterance.onend = () => setLeyendoVoz(false);
     utterance.onerror = () => setLeyendoVoz(false);
