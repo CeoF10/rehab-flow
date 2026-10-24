@@ -28,3 +28,12 @@ export function mensajeErrorVoz(error, sinVoces = false) {
   }
   return "No se pudo reproducir la voz. Puedes leer el contenido en pantalla.";
 }
+
+export function seleccionarVozEspanol(voices = []) {
+  const normalizar = (lang = "") => lang.toLowerCase().replaceAll("_", "-");
+  return voices.find((voice) => normalizar(voice.lang) === "es-ec")
+    || voices.find((voice) => normalizar(voice.lang) === "es-419")
+    || voices.find((voice) => normalizar(voice.lang).startsWith("es-"))
+    || voices.find((voice) => normalizar(voice.lang) === "es")
+    || null;
+}

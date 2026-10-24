@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Icon from "./components/Icon";
 import { especialistas, centroInfo } from "./data/mock";
 import { borradorVacio, crearCitasDemo, generarCodigo, obtenerHorariosDisponibles, quitarDatosSensibles } from "./utils/appointments";
-import { fragmentarTexto, mensajeErrorVoz } from "./utils/voice";
+import { fragmentarTexto, mensajeErrorVoz, seleccionarVozEspanol } from "./utils/voice";
 import { assetUrl } from "./utils/assets";
 
 const preferenciasIniciales = { textoGrande: false, altoContraste: false, botonesGrandes: false };
@@ -69,7 +69,7 @@ function Preferencias({ valor, onChange }) {
       setEstadoVoz({ activo: false, pausado: false, texto: mensajeErrorVoz("", true), fraseActual: "" });
       return;
     }
-    const vozEsp = voices.find((v) => v.lang?.toLowerCase() === "es-ec") || voices.find((v) => v.lang?.toLowerCase().startsWith("es")) || null;
+    const vozEsp = seleccionarVozEspanol(voices);
 
     let index = 0;
 
