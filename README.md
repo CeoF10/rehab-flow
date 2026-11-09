@@ -14,6 +14,13 @@ La cabecera usa el [logotipo publicado por el IESS](https://www.iess.gob.ec/wp-c
 
 La solicitud de cita usa **un solo recorrido de tres pasos** para todas las personas: datos, profesional y fecha/hora. Después muestra un resumen antes de confirmar. Quien necesite ayudas puede ampliar el texto, aumentar los controles, activar alto contraste o usar la lectura por voz. El diseño se orienta a personas jóvenes, adultos mayores y personas con discapacidad visual o motriz sin pedirles que se clasifiquen.
 
+## Probar el prototipo
+
+1. Abre la demo y entra en **Disponibilidad**. Elige un cupo para iniciar la solicitud con profesional y horario ya seleccionados.
+2. Completa el formulario con datos ficticios, revisa el resumen y confirma. En **Mis citas** puedes probar la reprogramación o la cancelación.
+3. Abre **Accesibilidad** y prueba texto grande, alto contraste y botones grandes. Recorre los controles con Tab y prueba la lectura en voz alta en un navegador compatible.
+4. Para la exposición, abre **Mis citas → Datos y privacidad** y carga las citas ficticias de ejemplo.
+
 ## Funciones
 
 1. Registro local de nombre y correo para esta sesión.
@@ -29,9 +36,11 @@ Las citas y los horarios usan datos simulados; la dirección, el teléfono y la 
 
 ## Ejecutar
 
-Se necesita Node.js compatible con Vite 8.
+El flujo de publicación usa Node.js 22.
 
 ```bash
+git clone https://github.com/CeoF10/rehab-flow.git
+cd rehab-flow
 npm ci
 npm run dev
 ```
@@ -44,7 +53,9 @@ npm run lint
 npm run build
 ```
 
-Desde «Mis citas» → «Datos y privacidad» se pueden cargar dos citas ficticias para mostrar historial, recordatorios, reprogramación y cancelación. Usa nombres inventados en las pruebas. Las citas y los datos de registro se guardan solo en `sessionStorage` y las preferencias de accesibilidad en `localStorage`; los diez dígitos de la cédula solicitados en el formulario no se guardan.
+## Datos y privacidad
+
+Las citas y los datos de registro se guardan solo en `sessionStorage` y las preferencias de accesibilidad en `localStorage`; los diez dígitos de la cédula solicitados en el formulario no se guardan.
 
 ## Organización
 
