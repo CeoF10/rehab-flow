@@ -6,7 +6,7 @@
 
 Aplicación React y Vite para la exploración de profesionales y solicitud accesible de citas médicas de rehabilitación física en Guaranda.
 
-**Sitio publicado:** [ver el prototipo en GitHub Pages](https://ceof10.github.io/IHM-ProyectoU/).
+**Sitio publicado:** [ver el prototipo en GitHub Pages](https://ceof10.github.io/rehab-flow/).
 
 **Entrega para la docente:** [documentos originales, diagrama actualizado y guía de exposición](ENTREGA.md).
 
@@ -69,6 +69,6 @@ Las citas y los datos de registro se guardan solo en `sessionStorage` y las pref
 - `public/inicio/`: fotografía ilustrativa generada para la portada; no representa un centro ni personal real del IESS.
 - `docs/`: charter, mapa de navegación, análisis IHM y protocolo de evaluación.
 - `diagramas/`: caso de uso editable de la versión actual.
-- `entregas-docente/`: PDF originales de las tareas 3, 4 y 5, más la presentación complementaria.
+- `presentacion/`: vista previa de la portada de la exposición.
 
 La dirección y el teléfono del centro proceden del [directorio de unidades médicas del IESS](https://www.iess.gob.ec/es/mapa-de-unidades-medicas). La fotografía de la fachada procede del [Plan Médico Funcional del Hospital de Guaranda](https://www.iess.gob.ec/documents/10162/3321619/PMF+HOSPITAL+GUARANDA.pdf), publicado por el IESS. Las fichas de profesionales y sus retratos son referenciales, no identifican a personal real.

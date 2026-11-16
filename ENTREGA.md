@@ -10,8 +10,8 @@
 
 ## Acceso para la revisión
 
-- [Abrir el prototipo publicado](https://ceof10.github.io/IHM-ProyectoU/)
-- [Consultar el código y la documentación](https://github.com/CeoF10/IHM-ProyectoU)
+- [Abrir el prototipo publicado](https://ceof10.github.io/rehab-flow/)
+- [Consultar el código y la documentación](https://github.com/CeoF10/rehab-flow)
 
 La página es un **prototipo académico**. No pertenece al IESS ni consulta sus sistemas; los profesionales, cupos y citas son simulados. El registro y las citas de demostración duran la sesión del navegador. La identificación ingresada en la solicitud se valida y no se guarda.
 
@@ -19,17 +19,13 @@ La página es un **prototipo académico**. No pertenece al IESS ni consulta sus 
 
 | Documento | Contenido |
 |---|---|
-| [Tarea 3 · PDF original](entregas-docente/tarea-03/Tarea%20%233.pdf) | Comparación de tres portales de salud y decisiones de diseño. |
-| [Tarea 4 · PDF original](entregas-docente/tarea-04/Tarea%20%234.pdf) | Diagrama y explicación inicial de los casos de uso. |
-| [Tarea 5 · PDF original](entregas-docente/tarea-05/TAREA%20N5%20CORTEZ%20JIMENEZ%20%281%29.pdf) | Elementos de interfaz y su función. |
 | [Diagrama editable actualizado](diagramas/casos-de-uso-funcionalidades.drawio) | Un actor, **Paciente**, que puede corresponder a cualquiera de los tres perfiles del enunciado. |
 | [Alcance y requisitos actuales](docs/01-project-charter.md) | Problema, objetivo, ocho funciones y criterios de IHM. |
 | [Mapa de navegación](docs/02-mapa-navegacion.md) | Secciones y recorrido de solicitud. |
 | [Análisis IHM del prototipo](docs/03-analisis-ihm.md) | Decisiones de interfaz, accesibilidad y relación con las tareas previas. |
 | [Protocolo de evaluación](docs/04-protocolo-evaluacion.md) | Actividades y métricas para evaluar con participantes; no presenta resultados inventados. |
-| [Presentación complementaria](entregas-docente/material-complementario/Dominios_Alojamiento_IESS_mismo_diseno.pptx) | Dominios y alojamiento web aplicados al mismo tema. |
 
-Los tres PDF y la presentación son copias **sin modificar** de los archivos originales del primer parcial. Las tareas 1 (historia de IHM) y 2 (color rosa) no se incluyen porque no son entregables específicos de este sistema. El borrador DOCX de la tarea 5 tampoco se duplica: se entrega su PDF final.
+Los PDF de las tareas 3, 4 y 5 y las presentaciones se entregaron directamente a la docente, por lo que no se publican en este repositorio. Las tareas 1 (historia de IHM) y 2 (color rosa) no se incluyen porque no son entregables específicos de este sistema.
 
 ## Qué demuestra el prototipo
 
